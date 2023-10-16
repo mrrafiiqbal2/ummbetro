@@ -1,0 +1,890 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: serif;
+	font-size: 16px;
+	line-height: 1.7em;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: sans-serif;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+/*main-header part start*/
+.main-header{
+	padding: 13px;
+	margin: 0px;
+	background: black;
+}
+.main-header .btn-danger{
+	font-weight: bold;
+	text-transform: uppercase;
+	color: black;
+	background: white;
+
+}
+.main-header .btn-danger:hover{
+	background: transparent;
+	color: white;
+	transition: 1s;
+}
+.header .icon{
+	width: 100%;
+	padding: 20px 0px;
+	margin: 0px 0px 0px 30px;
+}
+.icon p{
+font-size: 13px;
+}
+.icon .fa{
+	font-size: 35px;
+	border: 1px solid #eee;
+	border-radius: 20px;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link{
+	color: black;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: capitalize;
+	margin: 0px 0px 0px 8px;
+	text-transform: uppercase;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link:hover{
+	background: transparent;
+	color: red;
+	transition: 1s;
+}
+.top-header{
+	background: #eee;
+}
+.header .address{
+	width: 100%;
+	padding: 20px 0px;
+	
+}
+.header .address p{
+	margin: 0px 0px 0px 15px;
+	font-weight: bold;
+	line-height: 1.2em;
+}
+.header .address h6{
+	margin: 0px 0px 0px 115px;
+    font-weight: bold;
+	line-height: 1.2em;
+
+ }
+ .masroom{
+ 	width: 100%;
+ 	padding: 20px 0px;
+ 	background: url("../images/mas.jpeg") center top no-repeat;
+ 	background-size: cover;
+ }
+ .masroom h2{
+/* 	text-align: left;*/
+font-size: 62px;
+color: red;
+font-weight: bold;
+line-height: 1.4em;
+margin: 0px 0px 0px 180px;
+padding: 200px 0px;
+ }
+.say-section{
+width: 100%;
+padding: 100px 0px;
+margin: 0px;
+background: #eee;
+}
+.say-section .say-img{
+	width: 200px;
+	height: 200px;
+}
+
+.say-section .say-text h2{
+   text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	line-height: 1.3em;
+	text-transform: uppercase;
+}
+.say-section .say-text p{
+	font-size: 16px;
+  	font-weight: 400;
+	line-height: 1.3em;
+	text-transform: capitalize;
+} 
+.say-section .say-text span{
+	font-size: 34px;
+}
+.say-section .say-img-1{
+	margin-top: -210px;
+	margin-right: 230px;
+}
+/*header part end*/
+
+/*product part star*/
+.product{
+	width: 100%;
+	padding: 80px 0px;
+	text-align: center;
+}
+.pro-img{
+	width: 100px;
+	height: 100px;
+	margin: 0px 0px 0px 100px;
+}
+.product h4{
+	padding: 10px 0px;
+	text-transform: uppercase;
+	font-size: 26px;
+	font-weight: 700;
+	color: black;
+}
+.product p{
+	text-transform: capitalize;
+	font-size: 16px;
+	font-weight: 400;
+	color: black;
+}
+/*product part end*/
+
+/*the farm start*/
+.the-farm{
+	width: 100%;
+	padding: 80px 0px;
+	background: #eee;
+}
+.the-farm .title{
+	text-align: center;
+}
+.the-farm .title h2{
+	text-transform: uppercase;
+	font-size: 26px;
+	font-weight: bold;
+	color: black;
+	letter-spacing: 2px;
+	line-height: 1.2em;
+}
+.the-farm .title p{
+	text-transform: capitalize;
+	font-size: 16px;
+	font-weight: 400;
+	color: black;
+}
+.the-farm .title h3{
+	font-size: 36px;
+	font-weight: 400;
+	color: darkred;
+}
+.the-farm .farm-img{
+	width: 100%;
+	padding: 40px 0px;
+}
+.the-farm .title{
+	padding: 10px 0px;
+}
+.the-farm .title h4{
+	padding: 10px 0px;
+	text-transform: uppercase;
+	font-size: 26px;
+	font-weight: 700;
+	color: black;
+}
+.the-farm .title p{
+	text-transform: capitalize;
+	font-size: 18px;
+	font-weight: 600;
+	color: black;
+}
+.the-farm .farm-btn{
+	width: 100%;
+	padding: 60px 0px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.the-farm .btn-danger{
+	padding:13px 30px;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: 1px solid #eee;
+	border-radius: 1px;
+}
+.the-farm .btn-danger:hover{
+	color: black;
+	background: transparent;
+	transition: 1s;
+}
+.the-farm .btn-danger:focus{
+	color: green;
+	background: red;
+}
+/*the farm end*/
+
+/*helth part start*/
+.helth{
+	width: 100%;
+	padding: 80px 0px;
+}
+.helth .title{
+	text-align: center;
+}
+.helth .title h2{
+	text-transform: uppercase;
+	font-size: 26px;
+	font-weight: bold;
+	color: black;
+	letter-spacing: 2px;
+	line-height: 1.2em;
+}
+.helth .title p{
+	text-transform: capitalize;
+	font-size: 16px;
+	font-weight: 400;
+	color: black;
+}
+.helth .title h3{
+	font-size: 36px;
+	font-weight: 400;
+	color: darkred;
+}
+.helth .helth-title{
+	text-align: center;
+
+}
+.helth .helth-img{
+	width: 180px;
+	height: 180px;
+	margin: 0px 60px 0px 100px;
+}
+.helth-title{
+	padding: 20px 0px;
+}
+.helth .helth-title h2{
+	margin-right: 220px;
+	text-transform: uppercase;
+	font-size: 26px;
+	font-weight: bold;
+	color: black;
+	letter-spacing: 2px;
+	line-height: 1.2em;
+ }
+.helth .helth-title p{
+	text-transform: capitalize;
+	font-size: 16px;
+	font-weight: 400;
+	color: black;
+	margin-right: 220px;
+}
+.helth .helth-title h4{
+    margin-left: 220px;
+	text-transform: uppercase;
+	font-size: 26px;
+	font-weight: bold;
+	color: black;
+	letter-spacing: 2px;
+	line-height: 1.2em;
+ }
+.helth .helth-title h5{
+    margin-left: 220px;
+    text-align: right;
+	text-transform: capitalize;
+	font-size: 16px;
+	font-weight: 400;
+	color: black;
+}
+.helth .helth-title-1{
+  padding: 10px 0px;
+}
+.helth .helth-title-1 h2{
+    text-transform: uppercase;
+	font-size: 26px;
+	font-weight: bold;
+	color: black;
+	letter-spacing: 2px;
+	line-height: 1.2em;
+}
+
+.helth .helth-title-1 p{
+	text-transform: capitalize;
+	font-size: 16px;
+	font-weight: 400;
+	color: black;
+}
+.helth .helth-title-1 h4{
+
+	text-transform: uppercase;
+	font-size: 26px;
+	font-weight: bold;
+	color: black;
+	letter-spacing: 2px;
+	line-height: 1.2em;
+ }
+.helth .helth-title-1 h5{
+    text-align: right;
+	text-transform: capitalize;
+	font-size: 16px;
+	font-weight: 400;
+	color: black;
+}
+.helth .helth-title-2 h2{
+	text-transform: uppercase;
+	font-size: 26px;
+	font-weight: bold;
+	color: black;
+	letter-spacing: 2px;
+	line-height: 1.2em;
+}
+.helth .helth-title-2 p{
+	margin-right: 220px;
+	text-transform: capitalize;
+	font-size: 16px;
+	font-weight: 400;
+	color: black;
+}
+.helth .helth-title-3 h2{
+margin-left: 220px;
+	text-transform: uppercase;
+	font-size: 26px;
+	font-weight: bold;
+	color: black;
+	letter-spacing: 2px;
+	line-height: 1.2em;
+ }
+.helth .helth-title-3 p{
+	margin-left: 220px;
+    text-align: right;
+	text-transform: capitalize;
+	font-size: 16px;
+	font-weight: 400;
+	color: black;
+}
+/*helth part end*/
+
+/*musroom part start*/
+.musroom{
+	width: 100%;
+	padding: 100px 0px;
+	background: #eee;
+}
+.musroom .title{
+	text-align: center;
+}
+.musroom .title h2{
+	text-transform: uppercase;
+	font-size: 26px;
+	font-weight: bold;
+	color: black;
+	letter-spacing: 2px;
+	line-height: 1.2em;
+}
+.musroom .title p{
+	text-transform: capitalize;
+	font-size: 16px;
+	font-weight: 400;
+	color: black;
+}
+.musroom .title h3{
+	font-size: 36px;
+	font-weight: 400;
+	color: darkred;
+} 
+.musroom .our-mas-img{
+	width: 100%;
+	padding: 80px 0px;
+}
+.musroom .MAS-BTN{
+	text-align: center;
+	padding: 10px 0px;
+} 
+.musroom .MAS-BTN .btn-danger{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+	color: black;
+	border: 1px solid transparent;
+	border-radius: 1px;
+	padding: 10px 40px;
+}
+.musroom .MAS-BTN .btn-danger:hover{
+	color: black;
+	background: white;
+	transition: 1s;
+}
+.musroom .MAS-BTN .btn-danger:focus{
+	color: white;
+	background: black;
+}
+/*musroom part end*/
+
+/*our-team start*/
+.our-team{
+	width: 100%;
+	padding: 80px;
+	background: url("../images/bg1.jpg") center top no-repeat;
+	background-size: cover;
+}
+.our-team .title{
+  text-align: center;
+}
+
+.our-team .title h2{
+	text-transform: uppercase;
+	font-size: 26px;
+	font-weight: bold;
+	color: white;
+	letter-spacing: 2px;
+	line-height: 1.2em;
+}
+.our-team .title p{
+	text-transform: capitalize;
+	font-size: 16px;
+	font-weight: 400;
+	color: white;
+}
+.our-team .title h3{
+	font-size: 36px;
+	font-weight: 400;
+	color: darkred;
+} 
+.our-team-1{
+	padding: 80px 0px;
+}
+
+.our-team-1 h4{
+	margin: 0px 0px 0px 40px;
+	text-align: center;
+	font-weight: 700;
+	line-height: 1.2em;
+	color: white;
+}
+.our-team-1 h6{
+	margin: 0px 0px 0px 40px;
+	text-align: center;
+	color: red;
+	font-weight: 300;
+	line-height: 1.2em;
+}
+ .owl-theme{
+text-align: center;
+}
+/*our team part end*/
+
+/*shop part start*/
+.shop{
+	width: 100%;
+	padding: 100px 0px;
+}
+.shop .title{
+	text-align: center;
+
+}
+.shop .title h2{
+   text-transform: uppercase;
+	font-size: 26px;
+	font-weight: bold;
+	color: black;
+	letter-spacing: 2px;
+	line-height: 1.2em;
+
+}
+.shop .title p{
+	text-transform: capitalize;
+	font-size: 16px;
+	font-weight: 400;
+	color: black;
+}
+.shop .title h3{
+	font-size: 36px;
+	font-weight: 400;
+	color: darkred;
+} 
+.shop .shop-details{
+	padding: 80px 0px;
+	text-align: center;
+}
+.shop .shop-details .shop-img{
+	background: #eee;
+}
+
+.shop .shop-details h3{
+	padding: 20px 0px;
+	font-size: 32px;
+	font-weight: bold;
+	color: black;
+	text-transform: uppercase;
+}
+.shop .shop-details p{
+	font-size: 32px;
+	font-weight: bold;
+	color: black;
+	text-transform: uppercase;
+}
+.shop .shop-details .btn-danger{
+	padding: 10px 20px;
+	text-transform: uppercase;
+	color: black;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.shop .shop-details .btn-danger:hover{
+	background: transparent;
+	color: black;
+	transition: 1s;
+}
+/*shop part end*/
+
+/*resipi part start*/
+.resipice{
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+.breads{
+	text-align: center;
+	padding: 40px 0px;
+	background: url("../images/breads.jpg") center top no-repeat;
+	background-size: cover;
+}
+.breads h1{
+	 text-transform: uppercase;
+	font-size: 26px;
+	font-weight: bold;
+	color: black;
+	letter-spacing: 2px;
+	line-height: 1.2em;
+}
+.breads p{
+	padding: 10px 0px;
+	margin: 0px 460px 0px 0px;
+	font-size: 14px;
+	font-weight: bold;
+	color: black;
+	text-transform: uppercase;
+}
+.breads .btn-danger{
+	margin: 0px 455px 0px 0px;
+}
+.breads .btn-danger{
+	background: white;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border: 1px solid #eee;
+	border-radius: 1px;
+}
+.breads .btn-danger:hover{
+	background: black;
+	color: white;
+	transition: 1s;
+}
+.reicipes{
+	text-align: center;
+	padding: 40px 0px;
+	background: url("../images/resipic.jpg") center top no-repeat;
+	background-size: cover;
+}
+
+.reicipes h1{
+	 text-transform: uppercase;
+	font-size: 26px;
+	font-weight: bold;
+	color: white;
+	letter-spacing: 2px;
+	line-height: 1.2em;
+}
+.reicipes p{
+	padding: 23px 0px;
+	margin: 0px 0px 0px 10px;
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+}
+.reicipes .btn-danger{
+	background: white;
+	margin: 0px 120px 0px 0px;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border: 1px solid #eee;
+	border-radius: 1px;
+}
+.reicipes .btn-danger:hover{
+	background: black;
+	color: white;
+	transition: 1s;
+}
+
+/*resipi part end*/
+
+/*choose part start*/
+.choose{
+	width: 100%;
+	padding: 80px 0px;
+}
+.choose .title{
+	text-align: center;
+}
+
+.choose .title h2{
+   text-transform: uppercase;
+	font-size: 26px;
+	font-weight: bold;
+	color: black;
+	letter-spacing: 2px;
+	line-height: 1.2em;
+
+}
+.choose .title p{
+	text-transform: capitalize;
+	font-size: 16px;
+	font-weight: 400;
+	color: black;
+}
+.choose .title h3{
+	font-size: 36px;
+	font-weight: 400;
+	color: darkred;
+} 
+.choose .icon{
+	text-align: center;
+	padding: 40px 0px;
+}
+.choose .icon .fa{
+	font-size: 60px;
+	color: red;
+}
+
+.choose .title{
+	padding: 10px 0px;
+}
+.choose .title h3{
+	font-size: 32px;
+	font-weight: bold;
+	color: black;
+	text-transform: uppercase;
+}
+.choose .title p{
+	text-transform: capitalize;
+	font-size: 16px;
+	font-weight: 400;
+	color: black;
+}
+.choose .inner-btn{
+	padding: 40px 0px;
+	text-align: center;
+}
+.choose .inner-btn .btn-success{
+	background: red;
+	font-size: 17px;
+	font-weight: bold;
+	color: white;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	border: 1px solid #eee;
+	border-radius: 1px;
+}
+.choose .inner-btn .btn-success:hover{
+	background: white;
+	color: black;
+	transition: 1s;
+}
+/*choose part end*/
+
+/*top-rated start*/
+.top-rated{
+	width: 100%;
+	padding: 60px 0px;
+   text-align: center;
+   background: url("../images/tpbg.jpg") center top no-repeat;
+   background-size: cover;
+}
+.top-rated .title{
+	width: 100%;
+	padding: 40px 0px;
+}
+.top-rated .title h2{
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: bold;
+	color: black;
+	letter-spacing: 2px;
+} 
+.top-rated .title p{
+	text-transform: capitalize;
+	font-size: 16px;
+	font-weight: 400;
+	color: black;
+}
+
+/*top-rated end*/
+
+/*blog part start*/
+.blog{
+	width: 100%;
+	padding: 80px 0px;
+}
+
+.blog .title{
+	text-align: center;
+}
+.blog .title h2{
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: bold;
+	color: black;
+	letter-spacing: 2px;
+} 
+.blog .title p{
+	text-transform: capitalize;
+	font-size: 16px;
+	font-weight: 400;
+	color: black;
+}
+.blof-img{
+	padding: 40px 0px;
+}
+.blog .title-1{
+	text-align: center;
+	}
+.blog .title-1 h6{
+  font-size: 14px;
+  text-transform: uppercase;
+  color: black;
+}
+.blog .title-1 h2{
+  text-transform: uppercase;
+	font-size: 24px;
+	font-weight: bold;
+	color: black;
+	letter-spacing: 2px;
+}
+.blog .icon .fa{
+	font-size: 18px;
+	margin: 0px 0px 0px 60px;
+}
+/*blog part end*/
+
+/*awardsawards start*/
+.awards{
+	width: 100%;
+	padding: 80px 0px;
+	background: #eee;
+}
+.awards .title{
+	padding: 40px 0px;
+	text-align: center;
+}
+.awards .title h2{
+   text-transform: uppercase;
+	font-size: 24px;
+	font-weight: bold;
+	color: black;
+	letter-spacing: 2px;
+}
+.awards .title p{
+    text-transform: capitalize;
+	font-size: 16px;
+	font-weight: 400;
+	color: black;
+}
+/*footer and newslatter start*/
+.footer{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/ftbg2.jpg") center top no-repeat;
+	background-size: cover;
+}
+.footer .title{
+	text-align: center;
+}
+.footer .title h2{
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: bold;
+	color: black;
+	letter-spacing: 2px;
+}
+.footer .title p{
+    text-transform: capitalize;
+	font-size: 16px;
+	font-weight: 400;
+	color: black;
+}
+.footer .btn-success{
+
+  font-size: 13px;
+  margin: 0px 0px 0px 10px;
+  text-transform: uppercase;
+  color: black;
+}
+.footer .btn-success:hover{
+	color: white;
+	background: black;
+	transition: 1s;
+
+}
+
+.main-footer{
+	width: 100%;
+	padding: 100px 0px;
+	text-align: center;
+}
+.logo-footer{
+	text-transform: uppercase;
+	font-size: 32px;
+	font-weight: bold;
+	color: black;
+	margin: 0px 0px 0px 10px;
+}
+.list-menu{
+	width: 100%;
+	padding: 10px 0px;
+	margin: 0px 0px 0px 5px;
+}
+ul li {
+	list-style: none;
+
+
+}
+ul a {
+    color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1));
+    text-decoration: none;
+
+
+}
+ul li a{
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 1.2em;
+}
+ul li a:hover{
+	color: black;
+	background: transparent;
+	transition: 1s;
+}
+.footer-bottom{
+	width: 100%;
+	padding: 20px 0px;
+	text-align: center;
+}
+.copyright p{
+	color: white;
+}
+.copyrights a{
+	 color: red;
+    text-decoration: none;
+}
